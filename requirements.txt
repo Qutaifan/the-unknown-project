@@ -1,0 +1,3 @@
+# requirements.txt
+
+protobuf==3.20.0
