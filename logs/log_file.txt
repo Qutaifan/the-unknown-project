@@ -1,5 +1,3 @@
-@"
 # Log File
 # Initialize logging for the Sales Forecasting Project
 
-"@ | Out-File -Path logs\log_file.txt -Encoding utf8 -Force

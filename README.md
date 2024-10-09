@@ -8,15 +8,15 @@ A project for monthly sales forecasting using PyTorch.
 
 \\\
 the-unknown-project/
-├── .github/
-│   └── dependabot.yml
-├── Data/
-│   ├── Monthly_sales/
-│   │   ├── 1.xlsx
-│   │   ├── 2.xlsx
-│   │   ├── ...
-│   ├── env/                      # Conda environment directory
-│   └── ...                       # Other data-related files
+ .github/
+    dependabot.yml
+ Data/
+    Monthly_sales/
+       1.xlsx
+       2.xlsx
+       ...
+    env/                      # Conda environment directory
+    ...                       # Other data-related files
 ├── logs/
 │   └── log_file.txt
 ├── src/
@@ -24,21 +24,21 @@ the-unknown-project/
 │   ├── evaluate.py
 │   ├── model.py
 │   ├── train.py
-│   └── utils.py
-├── configs/
-│   └── config.yaml
-├── notebooks/
-│   └── exploratory_analysis.ipynb
-├── models/
-│   ├── sales_forecast_model.pth
-│   ├── scaler_X.pkl
-│   └── scaler_y.pkl
-├── results/
-│   └── actual_vs_predicted.png
-├── .gitignore
-├── LICENSE
-├── README.md
-└── environment.yml                # Conda environment configuration
+│    utils.py
+ configs/
+    config.yaml
+ notebooks/
+    exploratory_analysis.ipynb
+ models/
+    sales_forecast_model.pth
+    scaler_X.pkl
+    scaler_y.pkl
+ results/
+    actual_vs_predicted.png
+ .gitignore
+ LICENSE
+ README.md
+ environment.yml                # Conda environment configuration
 \\\
 
 ## Installation

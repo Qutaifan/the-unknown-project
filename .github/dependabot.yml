@@ -1,8 +1,6 @@
-@"
 version: 2
 updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
-"@ | Out-File -Path .github\dependabot.yml -Encoding utf8 -Force
