@@ -1,0 +1,9 @@
+# Configuration for Sales Forecasting Project
+
+batch_size: 32
+learning_rate: 0.001
+num_epochs: 100
+model_path: 'models/sales_forecast_model.pth'
+scaler_X_path: 'models/scaler_X.pkl'
+scaler_y_path: 'models/scaler_y.pkl'
+log_file: 'logs/log_file.txt'

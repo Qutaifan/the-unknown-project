@@ -1,0 +1,24 @@
+name: sales-forecasting
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - openpyxl
+  - ipykernel
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # Remove or adjust based on CUDA availability
+  - pip:
+      - python-dotenv
+      - torch  # If not installed via Conda
+      - torchvision
+      - torchaudio
+      # Add any additional pip packages here
